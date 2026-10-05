@@ -1,0 +1,14 @@
+# Dafny and .NET build outputs
+bin/
+obj/
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# Dafny-generated C# project files
+/first.cs
+/first.csproj
+
+# Compiled executable generated from first.dfy
+/first
